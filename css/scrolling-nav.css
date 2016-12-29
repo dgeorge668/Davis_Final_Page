@@ -4,7 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+*{
 
+    font-family: 'Montserrat', serif;
+}
 
 body {
     width: 100%;
