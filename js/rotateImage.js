@@ -1,7 +1,7 @@
 $(document).ready(function() {
   if (window.orientation == 0) {
     $('body').hide();
-    $('html').append("<div id='rotate'><img style='margin:auto;height:auto;width:90%;' src='rotate_device.png'></img></div>");
+    $('html').append("<div id='rotate'><img style='margin:auto;height:auto;width:90%;' src='http://jurobert.org/rotate_device.png'></img></div>");
     $('html').css('background-color','black');
     $('#rotate').css('color','white');
     $('#rotate').css('margin','auto');
