@@ -52,14 +52,14 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: calc(7%);
     text-align: center;
-    background: #eee;
+    background: #fff;
 }
 
 .project-section {
     height: 100%;
     padding-top: calc(7%);
     text-align: center;
-    background: #fff;
+    background: #eee;
 }
 
 .map-section {
