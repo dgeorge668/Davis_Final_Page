@@ -10,10 +10,10 @@ $(document).ready(function() {
 		$('.med').text("Eliza: Written in OCaml. Uses recursion to extract regular expressions and respond.");
 	});
 	$('#projects').hover(function() {
-		$('.med').text("Hover over the images for more details.");
+		$('.med').text("Hover over the images for more details. Click to see more.");
 	});
 	$('p').hover(function() {
-		$('.med').text("Hover over the images for more details.");
+		$('.med').text("Hover over the images for more details. Click to see more");
 	});
 });
 
