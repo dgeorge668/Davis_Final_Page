@@ -1,12 +1,12 @@
 $(document).ready(function() {
 
-	$('#pacman').hover(function() {
+	$('#compress').hover(function() {
 		$('.med').text("Pacman: Written in Java. Ghosts use a Breadth First Search algorithm to chase Pacman.");
 	});
-	$('#yelp').hover(function() {
+	$('#creditz').hover(function() {
 		$('.med').text("Database Client: Written in Java. Can execute protected SQL queries for user to visualize.");
 	});
-	$('#eliza').hover(function() {
+	$('#feedme').hover(function() {
 		$('.med').text("Eliza: Written in OCaml. Uses recursion to extract regular expressions and respond.");
 	});
 	$('#projects').hover(function() {
