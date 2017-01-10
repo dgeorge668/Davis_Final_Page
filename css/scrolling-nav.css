@@ -120,19 +120,25 @@ of those sections to manage the look and feel of the site. */
     top: calc(10vh);
 }
 
-#yelp {
+#huffman {
     float: center;
     height: calc(50vh);
     width: calc(17vw);
 }
 
-#eliza {
+#creditz {
     float: right;
     height: calc(50vh);
     width: calc(30vw);
 }
 
-#pacman {
+#feedme {
+    float: left;
+    height: calc(50vh);
+    width: calc(23vw);
+}
+
+#neuro {
     float: left;
     height: calc(50vh);
     width: calc(23vw);
