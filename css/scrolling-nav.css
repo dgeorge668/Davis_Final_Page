@@ -45,7 +45,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: calc(12%);
     text-align: center;
     background: url(http://media.gettyimages.com/videos/stock-market-ticker-chart-video-id144265555?s=640x640) no-repeat;
-    background-size:contain;
+    background-size:cover;
     
 }
 
@@ -135,19 +135,19 @@ of those sections to manage the look and feel of the site. */
 #creditz {
     float: right;
     height: calc(50vh);
-    width: calc(30vw);
+    width: calc(29vw);
 }
 
 #feedme {
     float: left;
     height: calc(50vh);
-    width: calc(30vw);
+    width: calc(29vw);
 }
 
 #neuro {
     float: left;
     height: calc(50vh);
-    width: calc(23vw);
+    width: calc(20vw);
 }
 
 #map{
