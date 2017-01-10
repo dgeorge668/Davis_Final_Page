@@ -135,13 +135,13 @@ of those sections to manage the look and feel of the site. */
 #creditz {
     float: right;
     height: calc(50vh);
-    width: calc(29vw);
+    width: calc(27vw);
 }
 
 #feedme {
     float: left;
     height: calc(50vh);
-    width: calc(29vw);
+    width: calc(27vw);
 }
 
 #neuro {
