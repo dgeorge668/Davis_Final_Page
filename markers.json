@@ -1,0 +1,230 @@
+markers = [
+   {
+     "name": "Winnipeg, Canada",
+     "time": "1996-2000",
+     "lat": 49.8994,
+     "lng": -97.1392
+   },
+   {
+     "name": "Collegeville, PA",
+     "time": "2000-2008",
+     "lat": 40.1856,
+     "lng": -75.4583
+   },
+   {
+     "name": "Basking Ridge, NJ",
+     "time": "2008-2014",
+     "lat": 40.7062,
+     "lng": -74.5493
+   },
+   {
+     "name": "Shanghai, China",
+     "time": "2009, 2015",
+     "lat": 31.2000,
+     "lng": 121.5000
+   },
+   {
+     "name": "Beijing, China",
+     "time": "2009, 2015",
+     "lat": 39.9167,
+     "lng": 116.3833
+   },
+   {
+     "name": "Hangzhou, China",
+     "time": "2015",
+     "lat": 30.2500,
+     "lng": 120.1667
+   },
+   {
+     "name": "Suzhou, China",
+     "time": "2015",
+     "lat": 31.3000,
+     "lng": 120.6000
+   },
+   {
+     "name": "Chengdu, China",
+     "time": "2014",
+     "lat": 30.6586,
+     "lng": 104.0647
+   },
+   {
+     "name": "Xi'an, China",
+     "time": "2014",
+     "lat": 34.2667,
+     "lng": 108.9000
+   },
+   {
+     "name": "Tianjin, China",
+     "time": "2014",
+     "lat": 39.1333,
+     "lng": 117.1833
+   },
+   {
+     "name": "Lucerne, Switzerland",
+     "time": "2015",
+     "lat": 47.0500,
+     "lng": 8.3000
+   },
+   {
+     "name": "Rome, Italy",
+     "time": "2015",
+     "lat": 41.9000,
+     "lng": 12.5000
+   },
+   {
+     "name": "London, England",
+     "time": "2015",
+     "lat": 51.5072,
+     "lng": -0.1275
+   },
+   {
+     "name": "Paris, France",
+     "time": "2015",
+     "lat": 48.8567,
+     "lng": 2.3508
+   },
+   {
+     "name": "Milan, Italy",
+     "time": "2015",
+     "lat": 45.4667,
+     "lng": 9.1833
+   },
+   {
+     "name": "Florence, Italy",
+     "time": "2015",
+     "lat": 43.7833,
+     "lng": 11.2500
+   },
+   {
+     "name": "Venice, Italy",
+     "time": "2015",
+     "lat": 45.4375,
+     "lng": 12.3358
+   },
+   {
+     "name": "Los Angeles, CA",
+     "time": "2015",
+     "lat": 34.0500,
+     "lng": -118.2500
+   },
+   {
+     "name": "Dublin, CA",
+     "time": "2014",
+     "lat": 37.7022,
+     "lng": -121.9358
+   },
+   {
+     "name": "San Francisco, CA",
+     "time": "2014, 2016",
+     "lat": 37.7833,
+     "lng": -122.4167
+   },
+   {
+     "name": "Anaheim, CA",
+     "time": "2015",
+     "lat": 33.8361,
+     "lng": -117.8897
+   },
+   {
+     "name": "Huntington Beach, CA",
+     "time": "2015",
+     "lat": 33.6928,
+     "lng": -118.0003
+   },
+   {
+     "name": "Lake Placid, NY",
+     "time": "2013",
+     "lat": 44.2856,
+     "lng": -73.9853
+   },
+   {
+     "name": "New York City, NY",
+     "time": "2015",
+     "lat": 40.7127,
+     "lng": -74.0059
+   },
+   {
+     "name": "Woodstock, NH",
+     "time": "2015",
+     "lat": 43.9778,
+     "lng": -71.6858
+   },
+   {
+     "name": "Orlando, FL",
+     "time": "2007",
+     "lat": 28.4158,
+     "lng": -81.2989
+   },
+   {
+     "name": "Nassau, Bahamas",
+     "time": "2010",
+     "lat": 25.0600,
+     "lng": -77.3450
+   },
+   {
+     "name": "Maui, HI",
+     "time": "2011",
+     "lat": 20.8000,
+     "lng": -156.3333
+   },
+   {
+     "name": "Honolulu, HI",
+     "time": "2011",
+     "lat": 21.3000,
+     "lng": -157.8167
+   },
+   {
+     "name": "Seattle, WA",
+     "time": "2012",
+     "lat": 47.6097,
+     "lng": -122.3331
+   },
+   {
+     "name": "Vancouver, Canada",
+     "time": "2014",
+     "lat": 49.2827,
+     "lng": -123.1207
+   },
+   {
+     "name": "Mont Tremblant, Canada",
+     "time": "2014",
+     "lat": 46.1167,
+     "lng": -74.6000
+   },
+   {
+     "name": "Anchorage, AK",
+     "time": "2012",
+     "lat": 61.2167,
+     "lng": -149.9000
+   },
+   {
+     "name": "Denali, AK",
+     "time": "2012",
+     "lat": 63.0695,
+     "lng": -151.0074
+   },
+   {
+     "name": "Tegucigalpa, Honduras",
+     "time": "2014",
+     "lat": 14.1000,
+     "lng": -87.2167
+   },
+   {
+     "name": "Newport, RI",
+     "time": "2014",
+     "lat": 41.4880,
+     "lng": -71.3126
+   },
+   {
+     "name": "Redwood City, CA",
+     "time": "2016",
+     "lat": 37.4852,
+     "lng": -122.2364
+   },
+   {
+     "name": "Santa Cruz, CA",
+     "time": "2016",
+     "lat": 36.9741,
+     "lng": -122.0308
+   }  
+];
