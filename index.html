@@ -168,6 +168,7 @@
                 <div class="col-lg-12">
                     <div id="map" class="center wow fadeInUp"></div>
                     <div class="wow fadeInUp">
+ 
                         <i class="fa fa-copyright space">2016 Davis George</i> 
                     </div>
                 </div>
@@ -176,8 +177,22 @@
     </section>
 
 <!-- Map Init -->
-    <script type='text/javascript' src='markers.json'></script>
-    <script type='text/javascript' src='map.js'></script>
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3GbkpfX3bWIv5Ms1fYDwSn60LkCyTjFw&callback=initMap">
+    </script>
 
 
     <!-- wow.js -->
