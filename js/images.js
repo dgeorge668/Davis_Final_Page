@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	$('#compress').hover(function() {
+	$('#huffman').hover(function() {
 		$('.med').text("Pacman: Written in Java. Ghosts use a Breadth First Search algorithm to chase Pacman.");
 	});
 	$('#creditz').hover(function() {
