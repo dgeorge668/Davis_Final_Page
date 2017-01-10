@@ -126,10 +126,6 @@ of those sections to manage the look and feel of the site. */
     float: center;
     height: calc(50vh);
     width: calc(23vw);
-    height: auto; 
-    width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
 }
 
 #creditz {
@@ -144,11 +140,7 @@ of those sections to manage the look and feel of the site. */
     width: calc(27vw);
 }
 
-#neuro {
-    float: left;
-    height: calc(50vh);
-    width: calc(20vw);
-}
+
 
 #map{
     height: calc(70vh);
