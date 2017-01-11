@@ -279,6 +279,7 @@
     });
            
     google.maps.event.addListenerOnce(map, 'tilesloaded', function() {
+    infowindow.setContent('<h4>Current: New York, New York</h4>');
     infowindow.open(map, nyc);
 });
    
