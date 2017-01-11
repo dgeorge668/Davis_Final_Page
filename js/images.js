@@ -1,13 +1,13 @@
 $(document).ready(function() {
 
 	$('#huffman').hover(function() {
-		$('.med').text("Pacman: Written in Java. Ghosts use a Breadth First Search algorithm to chase Pacman.");
+		$('.med').text("Huffman: Written in Java. Utilizes a greedy algorithm to form a binary-search-tree used in file compression.");
 	});
 	$('#creditz').hover(function() {
-		$('.med').text("Database Client: Written in Java. Can execute protected SQL queries for user to visualize.");
+		$('.med').text("Credit Analysis: Written in R. Modeled risk of loan default using Bayesian Model Averaging on dataset of >100,000 loan samples.");
 	});
 	$('#feedme').hover(function() {
-		$('.med').text("Eliza: Written in OCaml. Uses recursion to extract regular expressions and respond.");
+		$('.med').text("FeedMe: A small business I started and sold which facilitated in-school food deliveries with an online form.");
 	});
 	$('#projects').hover(function() {
 		$('.med').text("Hover over the images for more details. Click to see more.");
