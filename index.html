@@ -181,7 +181,6 @@
       ['<h4>Durham, North Carolina</h4>',35.994033,-78.898619],
 ['<h4>Basking Ridge, New Jersey</h4>',40.706617,-74.549328],
 ['<h4>Atlanta, Georgia</h4>',33.748995,-84.387982],
-['<h4>New York, New York</h4>',40.712784,-74.005941],
 ['<h4>Ontario, Canada</h4>',51.253775,-85.323214],
 ['<h4>San Diego, California</h4>',32.715738,-117.161084],
 ['<h4>Richmond, Indiana</h4>',39.828937,-84.890238],
@@ -253,10 +252,13 @@
     var markers = new Array();
     
     var iconCounter = 0;
+           
+           ['<h4>Current: New York, New York</h4>',40.712784,-74.005941],
+
     
     // Add the markers and infowindows to the map
     for (var i = 0; i < locations.length; i++) {  
-      var marker = new google.maps.Marker({
+        var marker = new google.maps.Marker({
         position: new google.maps.LatLng(locations[i][1], locations[i][2]),
         map: map,
         icon: icons[iconCounter]
@@ -278,6 +280,18 @@
       }
     }
 
+            function autoCenter() {
+      //  Create a new viewpoint bound
+      var center = new google.maps.LatLngBounds(40.712784,-74.005941);
+      //  Go through each...
+      //for (var i = 0; i < markers.length; i++) {  
+				//bounds.extend(markers[i].position);
+      }
+      //  Fit these bounds to the map
+      //map.fitBounds(bounds);
+      map.setCenter(center)
+    }
+    autoCenter();
    
   </script>  
 
