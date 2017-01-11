@@ -236,7 +236,7 @@
 
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 10,
-      center: new google.maps.LatLng(-37.92, 151.25),
+      center: new google.maps.LatLng(40.712784,-74.005941),
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       mapTypeControl: false,
       streetViewControl: false,
@@ -281,18 +281,7 @@
       }
     }
 
-            function autoCenter() {
-      //  Create a new viewpoint bound
-      var center = new google.maps.LatLngBounds(40.712784,-74.005941);
-      //  Go through each...
-      //for (var i = 0; i < markers.length; i++) {  
-				//bounds.extend(markers[i].position);
-      }
-      //  Fit these bounds to the map
-      //map.fitBounds(bounds);
-      map.setCenter(center)
-    }
-    autoCenter();
+            
    
   </script>  
 
