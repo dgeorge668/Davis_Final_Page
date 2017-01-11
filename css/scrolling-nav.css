@@ -87,6 +87,15 @@ of those sections to manage the look and feel of the site. */
     font-size: calc(2.3vw + 2.3vh);
 }
 
+.largemap {
+    font-size: calc(2.3vw + 2.3vh);
+}
+
+.medmap {
+    font-size: calc(1.35vw + 1.35vh);
+    margin-bottom: calc(0.2vw+0.2vh);
+}
+
 .mega {
     font-size: calc(3.7vw + 3.7vh);
 }
