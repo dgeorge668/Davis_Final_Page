@@ -272,6 +272,15 @@
       	iconCounter = 0;
       }
     }
+    var nyc = new google.maps.Marker({
+        position: new google.maps.LatLng(40.712784,-74.005941), 
+        map: map, 
+        icon: 'http://maps.google.com/mapfiles/kml/paddle/red-stars.png' 
+    });
+           
+    google.maps.event.addListenerOnce(map, 'tilesloaded', function() {
+    infowindow.open(map, nyc);
+});
    
   </script>  
 
