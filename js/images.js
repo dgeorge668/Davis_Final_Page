@@ -3,9 +3,6 @@ $(document).ready(function() {
 	$('#huffman').hover(function() {
 		$('.med').text("Huffman: Written in Java. Utilizes a greedy algorithm to form a binary-search-tree used in file compression.");
 	});
-	$('#huffman').onclick(function() {
-		$('.med').text("Clicks work now");
-	});
 	$('#creditz').hover(function() {
 		$('.med').text("Credit Analysis: Written in R. Modeled risk of loan default using Bayesian Model Averaging on dataset of >100,000 loan samples.");
 	});
