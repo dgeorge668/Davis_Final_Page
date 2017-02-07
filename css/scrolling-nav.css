@@ -44,7 +44,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: calc(12%);
     text-align: center;
-    background: ticker.jpg no-repeat;
+    background: url(https://raw.githubusercontent.com/dgeorge668/Davis_Final_Page/master/ticker.jpg) no-repeat;
     background-size:cover;
     
 }
