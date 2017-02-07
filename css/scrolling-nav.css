@@ -44,7 +44,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: calc(12%);
     text-align: center;
-    background: url(http://media.gettyimages.com/videos/stock-market-ticker-chart-video-id144265555?s=640x640) no-repeat;
+    background: ticker.jpg no-repeat;
     background-size:cover;
     
 }
